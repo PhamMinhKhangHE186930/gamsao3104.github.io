@@ -18,7 +18,7 @@ a{
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
     justify-items: center;
     justify-content: center;
-    border: solid #deb76c;
+    border: 5px solid #deb76c;
     border-radius: 20px;
     margin: 5px;
     position: sticky;
@@ -29,7 +29,7 @@ a{
     background-color: #b69352;
     color: whitesmoke;
     border: 3px solid #20242C;
-    padding: 40px 30%;
+    padding: 17% 30%;
     border-radius: 10px;
     margin: 15px;
     /* transition */
@@ -163,21 +163,42 @@ li>a{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    column-gap: 155px;
+    /* column-gap: 15%; */
 }
 
+/* .head_figures{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    flex-wrap: nowrap;
+    column-gap: 0px;
+} */
+
+.grid_item1{
+    border: 4px solid #deb76c;
+    padding: 5px;
+    border-radius: 20px;
+    width: 60%;
+}
 
 .right_head{
     display: grid;
-    justify-items: center;
     align-items: center;
 }
 
 .grid_item2, .grid_item3{
+    border: 10px solid #deb76c;
+    border-radius: 10px;
     width: 190px;
 }
 
-#Mondstadt_page{
+hr{
+    border: 3px solid #deb76c;
+    border-radius: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Country_page{
     display: inline-block;
     background-color: #deb76c;
     border: 5px solid #b69352;
