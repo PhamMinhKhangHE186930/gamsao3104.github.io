@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Genshinfont;
+    src: url(../image/zh-cn.ttf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #20242C;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top {
+    font-family: Genshinfont;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    justify-items: center;
+    justify-content: center;
+    border: solid #deb76c;
+    border-radius: 20px;
+    margin: 5px;
+    position: sticky;
+    top: 3px;
+    background-color: #20242C;
+}
+.top > a{
+    background-color: #b69352;
+    color: whitesmoke;
+    border: 3px solid #20242C;
+    padding: 40px 30%;
+    border-radius: 10px;
+    margin: 15px;
+    /* transition */
+    transition-property: color, border, background;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+
+.top > a:hover{
+    background-color: #deb76c;
+    color: #20242C;
+    border: 3px solid #b69352;
+}
+
+.top > a:focus{
+    background-color: #deb76c;
+    color: #20242C;
+}
+
+.top > a:active{
+    background-color: #20242C;
+    color: #b69352;
+    border: 3px solid #b69352;
+}
+
+.top .current{
+    background-color: #deb76c;
+    color: #20242C;
+    border: 3px solid #b69352;
+}
+
+.skip{
+    position: absolute;
+    left: -1000px;
+    /* transition */
+    transition-property: color, border, background;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    font-family: Genshinfont;
+    color: #20242C;
+    text-align: center;
+}
+
+.skip:focus{
+    float: left;
+    top: 140px;
+    left: 5px;
+    background-color: #deb76c;
+    color: whitesmoke;
+    border: 3px solid #20242C;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+}
+
+#Home_page{
+    background-image: url(../image/GenshinLogo.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    align-items : flex-end;
+    color: rgb(226, 226, 226);
+    font-family: Genshinfont;
+    font-size: large;
+    border-radius: 10px;
+}
+
+main{
+    background-color: #deb76c;
+    font-size: large;
+    border-radius: 5px;
+    border: 3px solid #b69352;
+}
+
+main p{
+    margin: 10px;
+    font-weight: bold;
+}
+
+ol{
+    list-style-type: circle;
+}
+
+footer{
+    background-color: #deb76c;
+    border-radius: 5px;
+    border: 3px solid #b69352;
+}
+
+footer p{
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+}
+li>a{
+    color: #20242C;
+}
+
+.head_figures{
+    display: flex;
+    flex-direction: row;
+    column-gap: 123px;
+}
+
+.head_figures > .grid_item1{
+    border-radius: 10px;
+    width: 73%;
+}
+
+.right_head{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid_item2, .grid_item3{
+    width: 190px;
+}
+
+#Mondstadt_page{
+    display: inline-block;
+    background-color: #deb76c;
+    border: 5px solid #b69352;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px 15px;
+    color: #20242C;
+    font-family: Genshinfont;
+}
+
+.character{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+figure{
+    /* display: inline-block; */
+    text-align: center;
+    font-weight: bold;
+    margin: 2px;
+    width: 16.4%;
+}
+
+figure > img{
+    border: 5px solid #20242C;
+    padding: 2px;
+    width: 200px;
+}
+
+figure > img:hover{
+    opacity: 0.8;
+}
+
