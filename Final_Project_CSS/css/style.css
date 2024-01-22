@@ -189,7 +189,8 @@ li>a{
 .grid_item2, .grid_item3{
     border: 10px solid #deb76c;
     border-radius: 10px;
-    width: 190px;
+    width: 70%;
+    float: right;
 }
 
 hr{
